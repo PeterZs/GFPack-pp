@@ -78,7 +78,8 @@ cp calutil*.so rmspacing*.so ../../src/
 ```
 
 ## 3. Data Preparation
-
+- Download the dataset and ckpt from
+  [Google Drive](https://drive.google.com/file/d/1Xq-pptfYVsve2wsMJxSgMdyLALxD4AXW/view?usp=sharing).
 - Place training datasets (e.g. `dataset_train.pkl`) inside
   `data/datasets/`.  The validation set
   `dataset_vali.pkl` is already staged there.
