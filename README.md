@@ -83,6 +83,7 @@ cp calutil*.so rmspacing*.so ../../src/
 - Place training datasets (e.g. `dataset_train.pkl`) inside
   `data/datasets/`.  The validation set
   `dataset_vali.pkl` is already staged there.
+- The last 128 samples from the training set can be split and used as the validation set.
 - Polygon definitions (`0.txt` …) live directly inside `data/polygons/`.  If you
   have an archive, extract it so every file is available at:
   `data/polygons/<poly_id>.txt`.
